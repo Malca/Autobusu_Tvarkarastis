@@ -1,39 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true"
     android:scrollbars="vertical" >
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/header_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="@string/header_text"
         android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015" />
+        app:layout_constraintVertical_bias="0.015"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:id="@+id/choose_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/header_title"
+        app:layout_constraintTop_toBottomOf="@+id/header_title" />
 
     <Button
+        android:id="@+id/autobusu_stotis_button"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginStart="55dp"
         android:layout_marginTop="54dp"
         android:text="@string/autobusu_stotis"
+        android:textColorHighlight="@color/blackgrey"
+        android:textColorHint="@color/blackgrey"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/autobusu_stotis_button"
-        />
+        app:layout_constraintTop_toTopOf="@id/choose_text"
+        app:toggleCheckedStateOnClick="false" />
 
     <Button
         android:id="@+id/autobusu_stotis_vytauto_button"
@@ -84,6 +102,7 @@
         android:text="@string/muziejus"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/kestucio_button" />
+
 
     <Button
         android:id="@+id/pivonija_button"

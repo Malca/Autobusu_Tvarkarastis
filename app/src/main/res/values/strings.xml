@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Autobusų Tvarkaraštis</string>
-    <string name="header_text">Pasirinkite stotelę iš kurios važiuosite</string>
+    <string name="header_text">Ukmergės Miesto Autobusų Tvarkaraštis</string>
+    <string name="choose_text">Pasirinkite stotelę iš kurios važiuosite</string>
     <string name="autobusu_stotis">Autobusų stotis</string>
     <string name="autobus_stotis_vytauto_g">Autobusų stotis (Vytauto g.)</string>
     <string name="ligonine">Ligoninė</string>
