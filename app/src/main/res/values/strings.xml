@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Autobusų Tvarkaraštis</string>
+    <string name="header_text">Pasirinkite stotelę iš kurios važiuosite</string>
+    <string name="autobusu_stotis">Autobusų stotis</string>
+    <string name="autobus_stotis_vytauto_g">Autobusų stotis (Vytauto g.)</string>
+    <string name="ligonine">Ligoninė</string>
+    <string name="dukstyna">Dukstyna</string>
+    <string name="kestucio_aikste">Kęstučio aikštė</string>
+    <string name="muziejus">Muziejus</string>
+    <string name="pivonija">Pivonijos mikrorajonas</string>
+    <string name="gelzbetonis">Gelžbetonis</string>
+    <string name="kreksliai">Krekšliai</string>
+    <string name="pasile">Pašilė</string>
+    <string name="zaliasis_vienkiemis">Žaliasis Vienkiemis</string>
+    <string name="pramones">Pramonės mikrorajonas</string>
+    <string name="pienine">Pieninė</string>
+    <string name="geliu">Gėlių rajonas</string>
+    <string name="narbutas">Narbutas</string>
+    <string name="linu_stotele">Linų gatvės stotelė</string>
+    <string name="gamyklu_stotele">Gamyklų gatvės stotelė</string>
+    <string name="biofabriko_stotele">Biofabrikas</string>
+    <string name="gerseniskiu_stotele">Gerseniškių gatvės stotelė</string>
+    <string name="turgaus_stotele">Turgus</string>
+    <string name="baznycios_stotele">Bažnyčios stotelė (Pašilėje)</string>
+</resources>
