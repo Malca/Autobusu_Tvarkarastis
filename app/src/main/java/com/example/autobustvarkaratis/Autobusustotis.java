@@ -24,7 +24,8 @@ public class Autobusustotis extends Activity {
                 "<b>Nr. 4 į Pašilę</b><br/>5.05 6.06 6.55 9.05 10.12-nuo Dukstynos 11.18-nuo Dukstynos 12.16 12.46<br/> 13.25-nuo Dukstynos 13.47 14.23-nuo Dukstynos 14.50  15.47- nuo Dukstynos<br/>  16.12 16.40 – Paina ir ko 17.10 18.08<br/><br/>" +
                 "<b>Nr. 4A į Koklių fabriką</b><br/>7.05 8.33<br/><br/>" +
                 "<b>Nr. 5 į Pašilę</b><br/>4.45  13.15<br/><br/>" +
-                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6,00 6,42 7,30 Pivonijos m. – Žaliasis v. 9.00 10.00 10.52 11.31 12.16<br/> 13.15 14.30 15.09 16.08 17.00 19.02 19.42<br/><br>" +
+                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.00 6.42 7.30 Pivonijos m. – Žaliasis v. 9.00 10.00 10.52 11.31 12.16<br/> 13.15 14.30 15.09 16.08 17.00 19.02 19.42<br/><br>" +
+                "<b>Nr. 7 į Žaliajį vienkiemį (Narbuto)</b><br/>4.45 5.28 – Narbuto  13.08 13.50 – Narbuto  23.28 – iki Žiedo g.<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
                 "<b>Nr. 1 į Pieninę</b><br/>6.15 7.00 7.50 8.40 10.25 11.17 12.05 13.02 13.50 14.40<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabrikas</b><br/>7.00- Koklių f. 11.35 – Koklių f.<br/><br/>" +
