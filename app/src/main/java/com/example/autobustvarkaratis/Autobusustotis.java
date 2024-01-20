@@ -24,12 +24,12 @@ public class Autobusustotis extends Activity {
                 "<b>Nr. 4 į Pašilę</b><br/>5.05 6.06 6.55 9.05 10.12-nuo Dukstynos 11.18-nuo Dukstynos 12.16 12.46<br/> 13.25-nuo Dukstynos 13.47 14.23-nuo Dukstynos 14.50  15.47- nuo Dukstynos<br/>  16.12 16.40 – Paina ir ko 17.10 18.08<br/><br/>" +
                 "<b>Nr. 4A į Koklių fabriką</b><br/>7.05 8.33<br/><br/>" +
                 "<b>Nr. 5 į Pašilę</b><br/>4.45  13.15<br/><br/>" +
-                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6,00 6,42 7,30 Pivonijos m. – Žaliasis v. 9.00 10.00 10.52 11.31 12.16<br/> 13.15 14.30 15.09 16.08 17.00 19.02 19.42<br/><br/><br>" +
+                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6,00 6,42 7,30 Pivonijos m. – Žaliasis v. 9.00 10.00 10.52 11.31 12.16<br/> 13.15 14.30 15.09 16.08 17.00 19.02 19.42<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
-                "<b>Nr. 1 į Pieninę</b><br/>6.15 7.00 7.50 8.40 10.25 11.17 12.05 13.02 13.50 14.40 15.30 16.20<br/> 17.10 18.50 19.47<br/><br/>" +
+                "<b>Nr. 1 į Pieninę</b><br/>6.15 7.00 7.50 8.40 10.25 11.17 12.05 13.02 13.50 14.40<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabrikas</b><br/>7.00- Koklių f. 11.35 – Koklių f.<br/><br/>" +
-                "<b>Nr. 4 į Pašilę</b><br/>6.30 7.30 8.30 10.05 11.05 12.05 13.05 14.05 15.05 16.05<br/> 17.05 19.05<br/><br/>" +
-                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.12 7.10 8.06 9.01 10.58 - nuo Dukstynos 11.53 - nuo Dukstynos<br/> 13.02 - nuo Dukstynos 13.50 14.50- nuo Dukstynos 15.50- nuo Dukstynos 16.50 17.50 19.13<br/><br/>";
+                "<b>Nr. 4 į Pašilę</b><br/>6.30 7.30 8.30 10.05 11.05 12.05 13.05 14.05 15.05<br/><br/>" +
+                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.12 7.10 8.06 9.01 10.58 - nuo Dukstynos 11.53 - nuo Dukstynos<br/> 13.02 - nuo Dukstynos 13.50 14.50- nuo Dukstynos<br/><br/>";
         TextView field = findViewById(R.id.textView);
         Spanned sp = Html.fromHtml(text, Html.FROM_HTML_MODE_COMPACT);
         TextView stotele = findViewById(R.id.stotelesname);

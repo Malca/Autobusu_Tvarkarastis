@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -32,13 +31,15 @@ public class Muziejus extends Activity {
                 "<b>Nr. 5 į Autobusų stotį</b><br/>15.31<br/><br/>" +
                 "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.08 6.50 7.38 – Pivonijos m. -Žaliasis v. 9.10 10.10 11.00 11.40<br/> 12.26 13.25 14.38 15.17 16.17 17.10 19.10 19.50<br/><br/>" +
                 "<b>Nr. 6 į Autobusų stotį</b><br/>6.32 7.12 8.00 9.42 10.42 11.22 12.04 12.56 14.02 15.00 15.44 16.42<br/> 17.42 19.28 20.08<br/><br/><br>" +
+                "<b>Nr. 7 į Žaliajį vienkiemį</b><br/>4.51 13.14 14.55 23.34<br/><br>" +
+                "<b>Nr. 7 į Autobusų stotį</b><br/>5.20 13.43 15.21<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
                 "<b>Nr. 2 į Autobusų stotį</b><br/>14.13<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabriką</b><br/>7.10 8.11 9.11 9.41 – Pašilė 11.46 12.46 13.56<br/><br/>" +
-                "<b>Nr. 4 į Pašilę</b><br/>6.40 7.40 8.40 10.15 11.15 12.15 13.15 14.15 15.15 16.15 17.15 19.15<br/><br/>" +
-                "<b>Nr. 4 į Autobusų stotį</b><br/>7.15 8.15 9.15 10.50 11.50 12.50 13.50 14.50 15.50 <br/>16.50 17.50 19.50<br/><br/>" +
-                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.20 7.17 8.13 9.09 11.06 12.01 13.10 13.58 <br/>14.58 15.58 16.58 17.58 19.20<br/><br/>" +
-                "<b>Nr. 6 į Autobusų stotį (Dukstyną)</b><br/>6.47 7.45 8.41 9.35 11.30- Dukstyna 12.28- Dukstyna<br/> 13.35 14.27-Dukstyna 15.27- Dukstyna 16.27 17.27 18.27 19.50<br/><br/>";
+                "<b>Nr. 4 į Pašilę</b><br/>6.40 7.40 8.40 10.15 11.15 12.15 13.15 14.15 15.15<br/><br/>" +
+                "<b>Nr. 4 į Autobusų stotį</b><br/>7.15 8.15 9.15 10.50 11.50 12.50 13.50 14.50 15.50<br/><br/>" +
+                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.20 7.17 8.13 9.09 11.06 12.01 13.10 13.58 14.58<br/><br/>" +
+                "<b>Nr. 6 į Autobusų stotį (Dukstyną)</b><br/>6.47 7.45 8.41 9.35 11.30- Dukstyna 12.28- Dukstyna<br/> 13.35 14.27-Dukstyna 15.27- Dukstyna<br/><br/>";
         TextView field = findViewById(R.id.textView);
         Spanned sp = Html.fromHtml(text, Html.FROM_HTML_MODE_COMPACT);
         TextView stotele = findViewById(R.id.stotelesname);

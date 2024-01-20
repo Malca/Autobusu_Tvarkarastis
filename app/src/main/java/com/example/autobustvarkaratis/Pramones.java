@@ -24,8 +24,10 @@ public class Pramones extends Activity {
                 "<b>Nr. 4A į Koklių fabriką</b><br/>7.43<br/><br/>" +
                 "<b>Nr. 5 į Autobusų stotį</b><br/>5.55<br/><br/>" +
                 "<b>Nr. 5 į Pašilę</b><br/>14.50 23.18<br/><br/><br>" +
+                "<b>Nr. 7 į Autobusų stotį</b><br/>5.48 23.18<br/><br>" +
+                "<b>Nr. 7 į Žaliąjį Vienkiemį</b><br/>14.49<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
-                "<b>Nr. 1 į Autobusų stotį</b><br/>6.40 7.30 8.20 9.08 10.54 11.45 12.35 13.30 14.20 15.10<br/> 16.00 16.50 17.40 19.20 19.58<br/><br/>" +
+                "<b>Nr. 1 į Autobusų stotį</b><br/>6.40 7.30 8.20 9.08 10.54 11.45 12.35 13.30 14.20 15.10<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabriką</b><br/>8.04 9.04 12.40 13.50<br/><br/>" +
                 "<b>Nr. 2 į Autobusų stotį</b><br/>10.36<br/><br/>";
         TextView field = findViewById(R.id.textView);

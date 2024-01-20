@@ -24,7 +24,7 @@ public class Pasile extends Activity {
                 "<b>Nr. 5 į Narbutą</b><br/>5.12 13.42 23.41<br/><br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
                 "<b>Nr. 2 į Biofrabriką</b><br/>10.00<br/><br/>" +
-                "<b>Nr. 4 į Autobusų stotį</b><br/>7.00 8.00 9.00 10.35 11.35 12.35 13.35 14.35 15.35<br/> 16.35 17.35 19.35<br/><br/>";
+                "<b>Nr. 4 į Autobusų stotį</b><br/>7.00 8.00 9.00 10.35 11.35 12.35 13.35 14.35 15.35<br/><br/>";
         TextView field = findViewById(R.id.textView);
         Spanned sp = Html.fromHtml(text, Html.FROM_HTML_MODE_COMPACT);
         TextView stotele = findViewById(R.id.stotelesname);

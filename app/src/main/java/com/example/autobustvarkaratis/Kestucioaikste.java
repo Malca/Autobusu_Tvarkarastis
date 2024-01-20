@@ -28,9 +28,12 @@ public class Kestucioaikste extends Activity {
                 "<b>Nr. 5 į Pašilę</b><br/>14.55  23.22<br/><br/>" +
                 "<b>Nr. 5 į Autobusų stotį</b><br/>6.02<br/><br/>" +
                 "<b>Nr. 5 į Narbutą</b><br/>5.36  14.06  23.52 – Žiedo g.<br/><br/><br>" +
+                "<b>Nr. 7 į Žaliąjį vienkiemį</b><br/>14,54<br/><br>" +
+                "<b>Nr. 7 į Autobusų stotį</b><br/>5.54 23.22<br/><br>" +
+                "<b>Nr. 7 į Narbutą</b><br/>5.34  13.56  23.55 – Žiedo g.<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
-                "<b>Nr. 1 į Autobusų stotį</b><br/>6.45 7.35 8.25 9.15 10.58 11.50 12.40 13.35 14.25 15.15 16.05<br/> 16.55 17.45 19.25 20.03<br/><br/>" +
-                "<b>Nr. 1 į Pieninę</b><br/>6.25 7.10 8.00 8.50 10.35 11.17 12.15 13.10 14.00 14.50 15.40<br/> 16.30 17.20 19.00 19.46<br/><br/>" +
+                "<b>Nr. 1 į Autobusų stotį</b><br/>6.45 7.35 8.25 9.15 10.58 11.50 12.40 13.35 14.25 15.15<br/><br/>" +
+                "<b>Nr. 1 į Pieninę</b><br/>6.25 7.10 8.00 8.50 10.35 11.17 12.15 13.10 14.00 14.50<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabriką</b><br/>8.10 9.10 9.42- Pašilė 10.43- AS 11.45- (Nuo Muziejaus) 12.45 13.55<br/><br/>" +
                 "<b>Nr. 2 į Biofrabriką</b><br/>7.36 8.36 10,15 12.10 13.10<br/><br/>" +
                 "<b>Nr. 6 į Dukstyną</b><br/>10.30<br/><br/>";

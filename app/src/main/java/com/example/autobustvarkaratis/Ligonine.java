@@ -25,13 +25,13 @@ public class Ligonine extends Activity {
                 "<b>Nr. 4A į Koklių fabriką</b><br/>7.06 8.34<br/><br/>" +
                 "<b>Nr. 5 į Pašilę</b><br/>4.46  13.16<br/><br/>" +
                 "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.01 6.43 7.31 Pivonijos mikr. – Žaliasis v. 9.01 10.01 10.53 11.32 Krekšliai 12.17<br/> 13.16 14.31 15.10 16.09 17.01 19.03 19.43<br/><br/><br>" +
+                "<b>Nr. 7 į Žaliajį vienkiemį (Narbuto)</b><br/>4.46 – Žal.vnk 5.29 – Narbuto  13.09 Žal.vnk.<br/>  13.51 – Narbuto  23.29 Žal.vnk.<br/><br>" +
                 "<b>Poilsio dienomis</b><br/><br/><br/>" +
-                "<b>Nr. 1 į Pieninę</b><br/>6.16 7.01 7.51 8.41 10.26 11.18 12.06 13.03 13.51 14.41 15.31<br/> 16.21 17.11 18.51 19.39<br/><br/>" +
-                "<b>Nr. 1 į Dukstyną</b><br/>9.24 11.05<br/><br/>" +
+                "<b>Nr. 1 į Pieninę</b><br/>6.16 7.01 7.51 8.41 10.26 11.18 12.06 13.03 13.51 14.41<br/><br/>" +
                 "<b>Nr. 2 į Koklių fabriką</b><br/>7.01 11.36<br/><br/>" +
-                "<b>Nr. 4 į Pašilę</b><br/>6.31 7.31 8.31 10.06 11.06 12.06 13.06 14.06 15.06 16.06<br/> 17.06 19.06<br/><br/>" +
-                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.13 7.11 8.07 9.02 10.59 11.54 13.03 13.51 14.51</br> 15.51 16.51 17.51 19.14<br/><br/>" +
-                "<b>Nr. 6 į Dukstyną</b><br/>10.37 11.37 12.35 14.34 15.34<br/><br/>";
+                "<b>Nr. 4 į Pašilę</b><br/>6.31 7.31 8.31 10.06 11.06 12.06 13.06 14.06 15.06<br/><br/>" +
+                "<b>Nr. 6 į Žaliajį vienkiemį</b><br/>6.13 7.11 8.07 9.02 10.59 11.54 13.03 13.51 14.51<br/><br/>" +
+                "<b>Nr. 6 į Dukstyną</b><br/>10.37 11.37 12.35 14.34<br/><br/>";
         TextView field = findViewById(R.id.textView);
         Spanned sp = Html.fromHtml(text, Html.FROM_HTML_MODE_COMPACT);
         TextView stotele = findViewById(R.id.stotelesname);
